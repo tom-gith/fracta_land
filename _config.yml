@@ -13,8 +13,8 @@ timezone: Asia/Tokyo
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
-root: /
+url: https://tom-gith.github.io/fractal_land/
+root: /fractal_land
 permalink: :year:month:day/:pid/
 permalink_defaults:
 pretty_urls:
@@ -103,4 +103,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/tom-gith/fractal_land.git
+  branch: master
+
