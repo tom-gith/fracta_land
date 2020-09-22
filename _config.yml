@@ -105,5 +105,5 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/tom-gith/fractal_land.git
-  branch: master
+  branch: gh-pages
 
