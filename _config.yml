@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: fractal_land
+title: fracta_land
 subtitle: ''
 description: ''
 keywords:
@@ -13,8 +13,8 @@ timezone: Asia/Tokyo
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://tom-gith.github.io/fractal_land/
-root: /fractal_land
+url: https://tom-gith.github.io/fracta_land/
+root: /fracta_land
 permalink: :year:month:day/:pid/
 permalink_defaults:
 pretty_urls:
@@ -104,6 +104,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/tom-gith/fractal_land.git
+  repo: https://github.com/tom-gith/fracta_land.git
   branch: gh-pages
-
